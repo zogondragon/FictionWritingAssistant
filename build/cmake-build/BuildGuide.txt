@@ -1,0 +1,5 @@
+Do the following to build the project.
+
+<In the cmake-build/ directory>
+cmake3 ..
+make -j8
