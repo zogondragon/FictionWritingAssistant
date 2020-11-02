@@ -14,7 +14,7 @@ file(GLOB SOURCES "src/*.cpp")
 
 # add the executable and libraries
 add_executable(Engine ${SOURCES})
-add_library(FwaEngine STATIC ${SOURCES})
+add_library(FwaEngine SHARED ${SOURCES})
 target_include_directories(Engine PUBLIC inc)
 target_include_directories(FwaEngine PUBLIC inc)
 
